@@ -1,0 +1,5 @@
+﻿  SeparatingDigitsInAnInteger.c
+c:\c_mycode\university\stc\cosc_1320_c\module_02\03_separatingdigitsinaninteger\03_separatingdigitsinaninteger\separatingdigitsinaninteger.c(22): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+  03_SeparatingDigitsInAnInteger.vcxproj -> C:\C_MyCode\University\STC\COSC_1320_C\Module_02\03_SeparatingDigitsInAnInteger\Debug\03_SeparatingDigitsInAnInteger.exe
+  03_SeparatingDigitsInAnInteger.vcxproj -> C:\C_MyCode\University\STC\COSC_1320_C\Module_02\03_SeparatingDigitsInAnInteger\Debug\03_SeparatingDigitsInAnInteger.pdb (Partial PDB)
