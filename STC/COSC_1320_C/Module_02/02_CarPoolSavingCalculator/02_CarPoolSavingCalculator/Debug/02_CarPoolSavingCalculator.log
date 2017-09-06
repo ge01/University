@@ -1,0 +1,15 @@
+﻿  CarPoolSavingCalculator.c
+c:\c_mycode\university\stc\cosc_1320_c\module_02\02_carpoolsavingcalculator\02_carpoolsavingcalculator\carpoolsavingcalculator.c(26): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\c_mycode\university\stc\cosc_1320_c\module_02\02_carpoolsavingcalculator\02_carpoolsavingcalculator\carpoolsavingcalculator.c(29): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\c_mycode\university\stc\cosc_1320_c\module_02\02_carpoolsavingcalculator\02_carpoolsavingcalculator\carpoolsavingcalculator.c(32): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\c_mycode\university\stc\cosc_1320_c\module_02\02_carpoolsavingcalculator\02_carpoolsavingcalculator\carpoolsavingcalculator.c(35): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\c_mycode\university\stc\cosc_1320_c\module_02\02_carpoolsavingcalculator\02_carpoolsavingcalculator\carpoolsavingcalculator.c(38): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\c_mycode\university\stc\cosc_1320_c\module_02\02_carpoolsavingcalculator\02_carpoolsavingcalculator\carpoolsavingcalculator.c(49): warning C4474: 'printf' : too many arguments passed for format string
+  c:\c_mycode\university\stc\cosc_1320_c\module_02\02_carpoolsavingcalculator\02_carpoolsavingcalculator\carpoolsavingcalculator.c(49): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  02_CarPoolSavingCalculator.vcxproj -> C:\C_MyCode\University\STC\COSC_1320_C\Module_02\02_CarPoolSavingCalculator\Debug\02_CarPoolSavingCalculator.exe
+  02_CarPoolSavingCalculator.vcxproj -> C:\C_MyCode\University\STC\COSC_1320_C\Module_02\02_CarPoolSavingCalculator\Debug\02_CarPoolSavingCalculator.pdb (Partial PDB)
