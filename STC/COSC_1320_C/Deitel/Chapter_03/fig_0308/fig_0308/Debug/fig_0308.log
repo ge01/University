@@ -1,0 +1,7 @@
+﻿  fig_0308.c
+c:\c_mycode\university\stc\cosc_1320_c\deitel\chapter_03\fig_0308\fig_0308\fig_0308.c(22): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\c_mycode\university\stc\cosc_1320_c\deitel\chapter_03\fig_0308\fig_0308\fig_0308.c(31): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+  fig_0308.vcxproj -> C:\C_MyCode\University\STC\COSC_1320_C\Deitel\Chapter_03\fig_0308\Debug\fig_0308.exe
+  fig_0308.vcxproj -> C:\C_MyCode\University\STC\COSC_1320_C\Deitel\Chapter_03\fig_0308\Debug\fig_0308.pdb (Partial PDB)
