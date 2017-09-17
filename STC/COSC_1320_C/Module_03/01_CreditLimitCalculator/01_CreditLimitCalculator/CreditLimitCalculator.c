@@ -1,5 +1,5 @@
 //
-// September 14, 2017
+// September 17, 2017
 // This program determins if a department store has exceeded the
 // credit limit on a charge account. For each customer, the following
 // facts are available:
@@ -60,10 +60,11 @@ int main(void)
 			printf("Account:\t%d\n\n", accountNumber);
 			printf("Credit limit:\t%.2f\n\n", allowedCreditLimit);
 			printf("Balance:\t%.2f\n\n", newBalance);
-			printf("%s", "Credit Limit Exceeded\n\n\n\n");
+			printf("%s", "Credit Limit Exceeded");
 		}
 
-		printf("%s", "Enter account number (-1 to end): ");
+		// get account number from user
+		printf("%s", "\n\n\n\nEnter account number (-1 to end): ");
 		scanf("%d", &accountNumber);
 		printf("\n");
 	}	
