@@ -16,29 +16,27 @@ int main(void)
 	printf("%s", "Enter # of hours worked (-1 to end): ");
 	scanf("%d", &hoursWorked);
 	
-	printf("%s", "Enter hourly rate of the worker ($00.00): ");
-	scanf("%f", &hourlyRate);
-	
 	while (hoursWorked != -1)
 	{
-		if (hoursWorked <= 40) 
+		
+		printf("%s", "Enter hourly rate of the worker ($00.00): ");
+		scanf("%f", &hourlyRate);
+
+		if (hoursWorked <= 40)
 		{
 			grossPay = hourlyRate * hoursWorked;
 		}
 		else
 		{
 			timeAndAHalfHours = hoursWorked - 40;
-			timeAndAHalfRate = (hourlyRate * 1.5) * timeAndAHalfHours;
+			timeAndAHalfRate = (hourlyRate / 2) * timeAndAHalfHours;
 			grossPay = (hourlyRate * hoursWorked) + timeAndAHalfRate;
 		}
 		
 		printf("Salary is $%.2f\n\n", grossPay);
 
 		printf("%s", "Enter # of hours worked (-1 to end): ");
-		scanf("%d", &hoursWorked);
-	
-		printf("%s", "Enter hourly rate of the worker ($00.00): ");
-		scanf("%f", &hourlyRate);	
+		scanf("%d", &hoursWorked);	
 	}
 
 }
