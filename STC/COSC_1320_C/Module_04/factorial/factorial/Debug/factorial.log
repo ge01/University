@@ -1,7 +1,7 @@
 ﻿  factorial.c
-c:\c_mycode\university\stc\cosc_1320_c\module_04\factorial\factorial\factorial.c(27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\c_mycode\university\stc\cosc_1320_c\module_04\factorial\factorial\factorial.c(31): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-c:\c_mycode\university\stc\cosc_1320_c\module_04\factorial\factorial\factorial.c(20): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\c_mycode\university\stc\cosc_1320_c\module_04\factorial\factorial\factorial.c(41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\c_mycode\university\stc\cosc_1320_c\module_04\factorial\factorial\factorial.c(45): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\c_mycode\university\stc\cosc_1320_c\module_04\factorial\factorial\factorial.c(19): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
   factorial.vcxproj -> C:\C_MyCode\University\STC\COSC_1320_C\Module_04\factorial\Debug\factorial.exe
   factorial.vcxproj -> C:\C_MyCode\University\STC\COSC_1320_C\Module_04\factorial\Debug\factorial.pdb (Partial PDB)
