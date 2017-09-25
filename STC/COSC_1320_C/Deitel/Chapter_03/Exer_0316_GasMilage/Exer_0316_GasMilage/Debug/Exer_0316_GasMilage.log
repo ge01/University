@@ -1,0 +1,9 @@
+﻿  GasMileage.c
+c:\c_mycode\university\stc\cosc_1320_c\deitel\chapter_03\exer_0316_gasmilage\exer_0316_gasmilage\gasmileage.c(14): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\c_mycode\university\stc\cosc_1320_c\deitel\chapter_03\exer_0316_gasmilage\exer_0316_gasmilage\gasmileage.c(21): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+c:\c_mycode\university\stc\cosc_1320_c\deitel\chapter_03\exer_0316_gasmilage\exer_0316_gasmilage\gasmileage.c(31): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+  Exer_0316_GasMilage.vcxproj -> C:\C_MyCode\University\STC\COSC_1320_C\Deitel\Chapter_03\Exer_0316_GasMilage\Debug\Exer_0316_GasMilage.exe
+  Exer_0316_GasMilage.vcxproj -> C:\C_MyCode\University\STC\COSC_1320_C\Deitel\Chapter_03\Exer_0316_GasMilage\Debug\Exer_0316_GasMilage.pdb (Partial PDB)
