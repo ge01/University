@@ -1,0 +1,33 @@
+.intro {
+  border: 3px solid #051259;
+  margin: auto;
+  text-align: justify;
+  width: 50%
+}
+.title {
+  text-align: center;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.inputBox-1 {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.buttonsTwo {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+button {
+  margin-top: 7px;
+}
+.numColor1 {
+  color: #FF1100;
+}
+.numColor2 {
+  color: #005588;
+}
