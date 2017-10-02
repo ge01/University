@@ -1,0 +1,46 @@
+.title h1 {
+  /*  border: 7px solid #225899; */
+  margin: auto;
+  margin-bottom: 7px;
+  text-align: center;
+  width: 50%;
+}
+.intro {
+  border: 3px solid #159876;
+  margin:auto;
+  text-align: justify;
+  width: 50%;
+}
+.inputBox {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.box-title {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.result {
+  border: 7px solid #225899;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.buttons-two {
+  margin: auto;
+  margin-bottom: 21px;
+  text-align: center;
+  width: 50%;
+}
+button {
+  margin-top: 7px;
+}
+h2 {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+h4 {
+  margin-bottom: 1px;
+}

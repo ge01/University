@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Carpool Calculator</title>
+    <link rel="stylesheet" types="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="title">
+      <h1>Carpool Calculator</h1>
+    </div>
+
+    <div class="intro">
+      This application calculates your daily driving cost, so that you can
+      estimate how much money could be saved by car pooling.
+    </div>
+
+    <duv class="box-title">
+      <h4>Trip Distance</h4>
+    </duv>
+    <div class="inputBox">
+      <input id="trip-distance" type="number" />
+    </div>
+
+    <duv class="box-title">
+      <h4>Fuel Efficiency</h4>
+    </duv>
+    <div class="inputBox">
+      <input id="fuel-efficiency" type="number" />
+    </div>
+
+    <duv class="box-title">
+      <h4>Gas Price</h4>
+    </duv>
+    <div class="inputBox">
+      <input id="gas-price" type="number" />
+    </div>
+
+    <div class="buttons-two">
+      <button id="submit-button">Submit</button>
+      <button id="reset-button">Reset</button>
+    </div>
+
+    <div class="result">
+      <h1>Result</h1>
+    </div>
+
+    <h2>Cost per day for driving to work is $<span id="gas-display">0</span></h2>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
