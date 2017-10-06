@@ -1,0 +1,4 @@
+﻿  weeklyPay.c
+c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(5): warning C4013: 'puts' undefined; assuming extern returning int
+  02_WeeklyPay.vcxproj -> C:\C_MyCode\University\STC\COSC_1320_C\Module_06\02_WeeklyPay\Debug\02_WeeklyPay.exe
+  02_WeeklyPay.vcxproj -> C:\C_MyCode\University\STC\COSC_1320_C\Module_06\02_WeeklyPay\Debug\02_WeeklyPay.pdb (Partial PDB)
