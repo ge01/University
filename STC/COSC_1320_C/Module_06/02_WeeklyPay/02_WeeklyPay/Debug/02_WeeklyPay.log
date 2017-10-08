@@ -1,17 +1,17 @@
 ﻿  weeklyPay.c
-c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(57): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(71): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(28): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(66): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(80): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(37): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
-c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(45): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(54): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
-c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(49): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(58): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
-c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(68): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(77): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
-c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(79): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(88): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
-c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(83): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\c_mycode\university\stc\cosc_1320_c\module_06\02_weeklypay\02_weeklypay\weeklypay.c(92): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
   02_WeeklyPay.vcxproj -> C:\C_MyCode\University\STC\COSC_1320_C\Module_06\02_WeeklyPay\Debug\02_WeeklyPay.exe
   02_WeeklyPay.vcxproj -> C:\C_MyCode\University\STC\COSC_1320_C\Module_06\02_WeeklyPay\Debug\02_WeeklyPay.pdb (Partial PDB)
