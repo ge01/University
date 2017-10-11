@@ -21,16 +21,21 @@
 
     <div class="container" ng-controller="AppCtrl">
       <h1>Digit List App</h1>
-    </div>
-
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Five-digit Number</th>
-          <th>No one</th>
-        </tr>
-      </thead>
-    </table>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Five-digit Number</th>
+            <th>No one</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="digit in digitlist">
+            <td>{{digit.inNum}}</td>
+            <td>{{digit.outNum}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>  
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
     <script src="controllers/controller.js"></script>
