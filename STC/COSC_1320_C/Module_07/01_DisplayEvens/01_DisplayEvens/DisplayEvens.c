@@ -1,3 +1,8 @@
+//
+// October 13, 2017
+// This program has a function called DisplayEvents that will take a single integer
+// value as a parameter and will display all even numbers up to that number
+// taken as a parameter.
 #include <stdio.h>
 
 int DisplayEvens(int); // prototype for function DisplayEvens
