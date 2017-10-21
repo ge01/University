@@ -1,35 +1,50 @@
 //
-//
-//
+// October 21, 2017
+// This program contains a nonrecursive function fibonacci(n) that calculates 
+// the nth Fibonacci number.
 #include <stdio.h>
 
+// function prototype
 unsigned long long int fibonacci(int n);
 
 int main(void)
 {
-	int fibNum;
+	// declare variables
+	int nth;
 	int i;
 
-	for (i = 0; i <= 12; ++i) {
-		fibNum = fibonacci(i);
-		printf("%d\n\n", fibNum);
+	// get the nth Fibonacci number
+	printf("Enter the nth number in the Fibonacci sequence: ");
+	scanf("%d", &nth);
+
+	// loop through the fibonacci function 
+	for (i = 0; i < nth; ++i) {
+		
+		// print fibonacci number
+		printf("%d ", fibonacci(i));
 	}
 }
 
+// fibonacci function definition returns the next number in
+// the fibonacci sequence
 unsigned long long int fibonacci(int n)
 {
-	int f2 = 0;
-	int f1 = 1;
-	int fib = 0;
+	// local variables
+	int num0 = 0;
+	int num1 = 1;
+	int numNext = 0;
 	int i;
 
-	if (n == 0 || n == 1)
+	// determine next number in fibonacci sequence
+	if (n <= 1) {
 		return n;
-
-	for (i = 2; i <= n; ++i) {
-		fib = f1 + f2;
-		f2 = f1;
-		f1 = fib;
 	}
-	return fib;
+	else {
+		for (i = 2; i <= n; ++i) {
+			numNext = num0 + num1;
+			num0 = num1;
+			num1 = numNext;
+		}
+		return numNext;
+	}
 }
