@@ -3,20 +3,33 @@
 //
 #include <stdio.h>
 
+unsigned long long int fibonacci(int n);
+
 int main(void)
 {
-	int i, n, num0 = 0, num1 = 1, numNext;
+	int fibNum;
+	int i;
 
-	printf("Enter the nth Fibonacci number: ");
-	scanf("%d", &n);
-
-	printf("Fibonacci Series: ");
-
-	for (i = 1; i <= n; ++i)
-	{
-		printf("%d, ", num0);
-		numNext = num0 + num1;
-		num0 = num1;
-		num1 = numNext;
+	for (i = 0; i <= 12; ++i) {
+		fibNum = fibonacci(i);
+		printf("%d\n\n", fibNum);
 	}
+}
+
+unsigned long long int fibonacci(int n)
+{
+	int f2 = 0;
+	int f1 = 1;
+	int fib = 0;
+	int i;
+
+	if (n == 0 || n == 1)
+		return n;
+
+	for (i = 2; i <= n; ++i) {
+		fib = f1 + f2;
+		f2 = f1;
+		f1 = fib;
+	}
+	return fib;
 }
