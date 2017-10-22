@@ -6,7 +6,7 @@ Debug/*
 
 03_RecursiveExponentiation/03_RecursiveExponentiation.vcxproj
 
-03_RecursiveExponentiation/03_RecursiveExponentiation.filters
+03_RecursiveExponentiation/03_RecursiveExponentiation.vcxproj.filters
 
 .vs/03_RecursiveExponentiation/v15
 
