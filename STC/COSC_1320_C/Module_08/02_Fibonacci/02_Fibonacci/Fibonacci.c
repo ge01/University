@@ -2,6 +2,7 @@
 // October 21, 2017
 // This program contains a nonrecursive function fibonacci(n) that calculates 
 // the nth Fibonacci number.
+// The largest number that can be printed on my system is 764848393.
 #include <stdio.h>
 
 // function prototype
