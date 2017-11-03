@@ -32,4 +32,4 @@ int main(void)
 	for (rating = 1; rating < FREQUENCY_SIZE; ++rating) {
 		printf("%6d%17d\n", rating, frequency[rating]);
 	} // end for
-} // end main e
+} // end main
