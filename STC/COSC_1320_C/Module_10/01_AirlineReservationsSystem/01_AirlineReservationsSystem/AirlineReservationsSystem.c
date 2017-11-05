@@ -13,6 +13,8 @@ int main(void)
 	int seatCounter1 = 0;
 	int seatCounter2 = 5;
 	int firstClassToEconomyClass = 0;
+	int firstClassFull = 0;
+	int economyClassFull = 0;
 
 	size_t firstClass;
 	size_t economyClass;
@@ -29,40 +31,42 @@ int main(void)
 	scanf_s("%d", &seatClassType);
 
 	while (seatClassType != -1 && seatAssignmentArray[seatCounter2] <= 10) {
-		
+
 		switch (seatClassType)
 		{
 		case 1:
 			//printf_s("case 1");
-			if (seatAssignmentArray[seatCounter1] == 0 && 
+			if (seatAssignmentArray[seatCounter1] == 0 &&
 				seatAssignmentArray[seatCounter1] < 5) {
-					seatAssignmentArray[seatCounter1] = 1;
-					//++seatCounter1;
-					
-					if (seatCounter1 < 5) {
-						printf_s("***********************************\n");
-						printf_s("*          Boarding Pass          *\n");
-						printf_s("*            Seat: %d              *\n", seatCounter1 + 1);
-						printf_s("***********************************\n");
-					}
-
-
-					++seatCounter1;
+				seatAssignmentArray[seatCounter1] = 1;
+				++seatCounter1;
 			}
-			if (seatCounter1 > 5 && seatCounter2 < 11) {
+
+			if (firstClassFull != 100) {
+				printf_s("***********************************\n");
+				printf_s("*          Boarding Pass          *\n");
+				printf_s("*            Seat: %d              *\n", seatCounter1);
+				printf_s("***********************************\n");
+			}
+
+			if (seatCounter1 > 4 && seatCounter2 < 11) {
 				printf_s("First Class is full.\n");
 				printf_s("Would you like an Economy Class Seat ( 3 = yes or 4 = no): ");
 				scanf_s("%d", &firstClassToEconomyClass);
 
 				if (firstClassToEconomyClass == 3) {
 					seatAssignmentArray[seatCounter2] = 1;
-						++seatCounter2;
+					++seatCounter2;
+					firstClassFull = 100;
 				}
 				else {
 					printf_s("Next flight leaves in 3 hours\n");
-					seatClassType = -1;
+					firstClassFull = 100;
 				}
 			}
+			//else {
+			//	seatClassType == -1;
+			//}
 
 
 			break;
@@ -74,19 +78,29 @@ int main(void)
 				seatAssignmentArray[seatCounter2] = 1;
 				++seatCounter2;
 			}
+			
+			if (economyClassFull != 200) {
+			printf_s("***********************************\n");
+			printf_s("*          Boarding Pass          *\n");
+			printf_s("*            Seat: %d              *\n", seatCounter2);
+			printf_s("***********************************\n");
+			}
 
 			if (seatCounter2 > 9 && seatCounter1 < 5) {
 				printf_s("Economy Class is full.\n");
 				printf_s("Would you like an First Class Seat ( 3 = yes or 4 = no): ");
 				scanf_s("%d", &firstClassToEconomyClass);
 
+
+
 				if (firstClassToEconomyClass == 3) {
 					seatAssignmentArray[seatCounter1] = 1;
 					++seatCounter1;
+					economyClassFull = 200;
 				}
 				else {
 					printf_s("Next flight leaves in 3 hours\n");
-					seatClassType = -1;
+					economyClassFull = 200;
 				}
 			}
 			break;
@@ -94,6 +108,7 @@ int main(void)
 		default:
 			break;
 		}
+
 
 		printf_s("%7s%13s\n", "Seat", "     0 = Not Booked 1 = Booked");
 
@@ -108,4 +123,4 @@ int main(void)
 		scanf_s("%d", &seatClassType);
 
 	} // end while
-} 
+}
