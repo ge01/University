@@ -19,15 +19,11 @@ int main(void)
 	size_t firstClass;
 	size_t economyClass;
 
-	//for (i = 0; i < SIZE; ++i) {
-	//	seatAssignmentArray[i] = 2 + 2 * i;
-	//}
-
 	printf_s("Airline Reservations System\n");
 	printf_s("---------------------------\n");
 	printf_s("1. First Class\n");
 	printf_s("2. Economy Class\n\n");
-	printf_s("Enter 1 or 2 to reserve a seat: ");
+	printf_s("Enter 1 or 2 to reserve a seat (-1 to exit): ");
 	scanf_s("%d", &seatClassType);
 
 	while (seatClassType != -1 && seatAssignmentArray[seatCounter2] <= 10) {
@@ -35,7 +31,7 @@ int main(void)
 		switch (seatClassType)
 		{
 		case 1:
-			//printf_s("case 1");
+
 			if (seatAssignmentArray[seatCounter1] == 0 &&
 				seatAssignmentArray[seatCounter1] < 5) {
 				seatAssignmentArray[seatCounter1] = 1;
@@ -64,10 +60,6 @@ int main(void)
 					firstClassFull = 100;
 				}
 			}
-			//else {
-			//	seatClassType == -1;
-			//}
-
 
 			break;
 
@@ -109,17 +101,7 @@ int main(void)
 			break;
 		}
 
-
-		printf_s("%7s%13s\n", "Seat", "     0 = Not Booked 1 = Booked");
-
-
-		// output contents of array seatAssignment in tabular format
-		for (i = 0; i < SIZE; ++i) {
-			//printf("%7u%13d\n", i + 1, seatAssignmentArray[i] + 1);
-			printf("%7u%13d\n", i, seatAssignmentArray[i]);
-		}
-
-		printf_s("Enter 1 or 2 to reserve a seat: ");
+		printf_s("Enter 1 or 2 to reserve a seat (-1 to exit): ");
 		scanf_s("%d", &seatClassType);
 
 	} // end while
