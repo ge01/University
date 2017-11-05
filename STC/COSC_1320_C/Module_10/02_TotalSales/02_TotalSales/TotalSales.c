@@ -5,9 +5,8 @@
 							 // function main begins program execution
 int main(void)
 {
-	// initialize array1, array2, array3
-	int array1[5][3] = { { 1, 10, 100 },{ 2, 20, 200 },{ 3, 30, 300 },
-	                     { 4, 40, 400 },{ 5, 50, 500 } };
+	// initialize array1
+	int array1[5][3] = {  1, 10, 100, 2, 20, 200, 3, 30, 300, 4, 40, 400, 5, 50, 500 };
 
 	size_t i; // row counter
 	size_t j; // column counter
