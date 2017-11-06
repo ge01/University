@@ -1,6 +1,7 @@
 //
-//
-//
+// November 5, 2017
+// A program to assign seats on each flight of an ailine's only
+// plane (capacity: 10 seats).
 #include <stdio.h>
 #define SIZE 10 // maximum size of array
 
