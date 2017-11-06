@@ -1,5 +1,7 @@
 // 
-// 
+// November 5, 2017 
+// This program uses a double-subscripted array to document salesperson passes 
+// and product sold.
 #include <stdio.h>
 #define PRODUCT 5
 #define SALESPERSON 4
@@ -13,7 +15,7 @@ int main(void)
 {
 	size_t product; // product counter
 
-					// initialize product cost for three products (rows)
+	// initialize product cost for five products (rows)
 	int productCost[PRODUCT][SALESPERSON] =
 	{ { 10, 15, 20, 22 },
 	{ 11, 44, 55, 74 },
@@ -40,7 +42,7 @@ double total(const int setOfCost[], size_t person)
 	size_t i; // cost counter
 	int total = 0; // sum of product cost
 
-				   // total cost for one product
+	// total cost for one product
 	for (i = 0; i < person; ++i) {
 		total += setOfCost[i];
 	} // end for
@@ -54,7 +56,7 @@ void printArray(int costs[][SALESPERSON], size_t item, size_t agent)
 	size_t i; // product counter
 	size_t j; // agent counter
 
-			  // output column heads
+	// output column heads
 	printf("%s", "           SP[1]  SP[2]  SP[3]  SP[4]");
 
 	// output costs in tabular format
