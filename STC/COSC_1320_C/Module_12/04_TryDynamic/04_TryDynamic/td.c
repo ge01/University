@@ -4,6 +4,7 @@
 void getData(int *testA, int scoresA);
 void ascendingSort(int *testA, int scoresA);
 int getAverage(int *testA, int scoresA);
+void displayData(int *testA, int scoresA, int Avg);
 
 int main(void)
 {
@@ -23,8 +24,10 @@ int main(void)
 	ascendingSort(test, scores);
 
 	average = getAverage(test, scores);
+	
+	displayData(test, scores, average);
 
-	printf_s("%d", average);
+	// printf_s("%d", average);
 
 
 	//free(test);
@@ -55,29 +58,34 @@ void getData(int *testA, int scoresA)
 // This function sorts the Test array in ascedning order
 void ascendingSort(int *testA, int scoresA)
 {
-	int i;
-	int j;
-	int temp;
+	unsigned int pass; // pass counter
+	size_t j; // comparison counter
+	unsigned int hold; // temporary locationused to swap elements
 
-	for (i = 0; i < scoresA; i++)
-	{
-		for (j = 0; j < (scoresA - i - 1); j++)
-		{
-			if (&testA[j] > &testA[j + 1])
-			{
-				temp = &testA[j];
-				testA[j] = &testA[j + 1];
-				testA[j + 1] = temp;
-			}
-		}
-	}
+					   // loop to control number of passes
+	for (pass = 1; pass < scoresA; ++pass) {
+		// loop to control number of comparisons per pass
+		for (j = 0; j < scoresA - 1; ++j) {
 
-	printf("Sorted array is...\n");
-	for (i = 0; i < scoresA; i++)
-	{
-		printf("%d\n", testA[i]);
-	}
-}
+			// swap elements if out of order
+			if (testA[j] > testA[j + 1]) {
+				hold = testA[j];
+				testA[j] = testA[j + 1];
+				testA[j + 1] = hold;
+			} // end if
+		} // end inner for
+	} // end outer for
+
+	//printf("sorted array is...\n");
+	//for (int i = 0; i < scoresA; i++)
+	//{
+	//	printf("%d\n", testA[i]);
+	//}
+
+} 
+
+
+
 
 // This function calculates the average of the scores stored in an array
 int getAverage(int *testA, int scoresA)
@@ -90,4 +98,20 @@ int getAverage(int *testA, int scoresA)
 	}
 
 	return total / scoresA;
+}
+
+void displayData(int *testA, int scoresA, int Avg)
+{
+	int i;
+
+	printf_s("\n Test scores\n");
+	printf_s("Number of scores: %d \n", scoresA);
+	
+	printf("sorted array is...\n");
+	for (int i = 0; i < scoresA; i++)
+	{
+		printf("%d ", testA[i]);
+	}
+
+	printf_s("Average score: %d", Avg);
 }
