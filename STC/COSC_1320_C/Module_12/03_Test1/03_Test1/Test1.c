@@ -4,30 +4,20 @@
 
 int main(void)
 {
-	//double *test;        // dynamically allocate an array
-	//double average;         // average of the scores
-	//int scores;             // number of scores
+	int size;
+	printf_s("\nEnter the size of the array: ");
+	scanf_s("%d", &size);
 
-	//// Get number of scores
-	//printf_s("How many grades will be entered? ");
-	//scanf_s("d", &scores);
+	int *A;
 
-	//// Dynamically allocate an array to hold scores
-	//double *test[scores];
+	A = (int*)malloc(size * sizeof(int));
 
+	printf_s("\nEnter the values of the array: ");
 	int i;
-	int meatBalls[5] = { 1,2,3,4,5 };
+	for (i = 0; i < size; i++)
+		scanf("%d", &A[i]);
 
-	printf("Element \t Address \t Value \n");
-
-	for (i = 0; i < 5; i++) {
-		printf("meatBalls[%d] \t %p \t %d \n", i, &meatBalls[i], meatBalls[i]);
-	}
-
-	// array names are just pointers to the first element
-	printf("\n meatBalls \t\t %p \n", meatBalls);
-
-	// dereference it
-	printf("\n meatBalls \t\t %d \n", *meatBalls);
-	printf("\n *(meatBalls+2) \t\t %d \n", *(meatBalls+2));
+	printf_s("\nThe values in the array are: \n");
+	for (i = 0; i < size; i++)
+		printf("%d\t", A[i]);
 }
