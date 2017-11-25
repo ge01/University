@@ -6,6 +6,7 @@
 
 void convertToUppercase(char *sPtr); // prototype
 void convertToLower(char *sPtr); // prototype
+void printCharacters(const char *sPtr);
 
 int main(void)
 {
@@ -15,6 +16,8 @@ int main(void)
 	convertToUppercase(string);
 	printf("\nThe string after conversion is: %s", string);
 	convertToLower(string);
+	printf("\nThe string after conversion is: %s", string);
+	printCharacters(string);
 	printf("\nThe string after conversion is: %s", string);
 	puts("");
 } // end main
@@ -36,3 +39,13 @@ void convertToLower(char *sPtr)
 		++sPtr; // make sPtr point to the next character
 	} // end while
 } // end function convertToLowercase
+
+// sPtr cannot modify the character to which it points,
+// i.e., sPtr is a "read-only" pointer
+void printCharacters(const char *sPtr)
+{
+	// loop through entire string
+	for (; *sPtr != '\0'; ++sPtr) { // no initialization
+		printf("%c", *sPtr);
+	} // end for
+} // end function printCharacters
