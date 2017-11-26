@@ -4,8 +4,9 @@
 #include <stdio.h>
 #include <ctype.h>
 
-void convertToUppercase(char *sPtr0); // prototype
-void convertToLower(char *sPtr1); // prototype
+// prototypes
+void convertToUppercase(char *sPtr0); 
+void convertToLower(char *sPtr1); 
 void printCharacters(const char *sPtr2);
 
 int main(void)
