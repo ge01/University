@@ -1,5 +1,5 @@
-// Fig. 7.7: fig_0707.c
-// Cube a variable using pass-by-reference with a pointer argument.
+// 
+// 
 
 #include <stdio.h>
 
