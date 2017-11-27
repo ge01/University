@@ -16,18 +16,14 @@ int main(void)
 	char studentString[] = "\nDon Quixote\n5487 Eagerest Dr.\nMentor, Ohio 52478";
 
 	// Use cubeByReference
-	printf("The original value of number is %d", number);
-	
+	printf("The original value of number is %d", number);	
 	cubeByReference(&number);
-
 	printf("\nThe new value of number is %d\n", number);
 
 	// Use studentByReference
 	puts("");
 	printf_s("The students info before fucntion call: %s\n", studentString);
-
-	studentByReference(studentString);
-	
+	studentByReference(studentString);	
 	puts("");
 	printf_s("The students info after function call: %s\n\n", studentString);
 } // end main
