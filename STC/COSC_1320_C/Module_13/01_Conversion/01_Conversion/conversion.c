@@ -1,10 +1,12 @@
 //
-// November 25, 2017
-// Case Conversion C-String
+// November 26, 2017
+// Case Conversion C-String. This program modifies the listing code Fig. 7.10
+// in textbook and adds the two functions convertToLowercase and 
+// printCharacters
 #include <stdio.h>
 #include <ctype.h>
 
-// prototypes
+// Prototypes
 void convertToUppercase(char *sPtr0); 
 void convertToLower(char *sPtr1); 
 void printCharacters(const char *sPtr2);
@@ -15,19 +17,20 @@ int main(void)
 	char string1[] = "GOOGLE.COM"; // initialize char array1
 	char string2[] = "COSC 1320"; // initialize char array2
 
+	// Function calls to print strings
 	printf("The string before conversion is: %s", string0);
 	convertToUppercase(string0);
-	printf("\nThe string after conversion is: %s\n", string0);
+	printf("\nThe string after conversion is: %s\n\n", string0);
 
 	printf("The string before conversion is: %s", string1);
 	convertToLower(string1);
-	printf("\nThe string after conversion is: %s\n", string1);
+	printf("\nThe string after conversion is: %s\n\n", string1);
 
-	printCharacters(string2);
-	puts("");
+	printf("Print Characters: %s", (string2));
+	puts("\n");
 } // end main
 
-// convert string to uppercase letters
+// Convert string to uppercase letters
 void convertToUppercase(char *sPtr0)
 {
 	while (*sPtr0 != '\0') { // current character is not '\0'
@@ -36,7 +39,7 @@ void convertToUppercase(char *sPtr0)
 	} // end while
 } // end function convertToUppercase
 
-// convert string to lowercase letters
+// Convert string to lowercase letters
 void convertToLower(char *sPtr1)
 {
 	while (*sPtr1 != '\0') { // current character is not '\0'
