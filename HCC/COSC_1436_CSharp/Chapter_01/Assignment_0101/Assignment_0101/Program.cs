@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignement_0101
+namespace Assignment_0101
 {
     class Program
     {
