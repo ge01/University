@@ -1,4 +1,10 @@
-﻿using System;
+﻿/****************************************************************
+ * Proramming Assignment 2-2                                    *
+ * Developer:                                                   *
+ * Date Submitted: February 11                                  *
+ * Purpose: Compute the average of five exam scores.            *
+ ***************************************************************/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,11 +15,9 @@ namespace Assignment_0202
     class Program
     {
         static void Main(string[] args)
-        {
-            // Declare constant
+        {            
             const int NUMBER_OF_SCORES = 5;
-
-            // Declare variables
+                        
             int examScore1 = 99;
             int examScore2 = 81;
             int examScore3 = 76;
