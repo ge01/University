@@ -1,4 +1,11 @@
-﻿using System;
+﻿/****************************************************************
+ * Proramming Assignment 2-1                                    *
+ * Developer:                                                   *
+ * Date Submitted: February 11                                  *
+ * Purpose: Enter the amount of a purchase, calculate taxes,    *
+ *          totals.                                             *
+ ***************************************************************/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
