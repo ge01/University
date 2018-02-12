@@ -3,7 +3,7 @@
  * Developer:                                                   *
  * Date Submitted: February 11                                  *
  * Purpose: Enter the amount of a purchase, calculate taxes,    *
- *          totals.                                             *
+ *          display totals.                                     *
  ***************************************************************/
 using System;
 using System.Collections.Generic;
