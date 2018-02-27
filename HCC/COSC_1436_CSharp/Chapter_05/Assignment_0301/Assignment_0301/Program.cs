@@ -1,9 +1,10 @@
-﻿/*Write a program that takes a decimal value between 
- * 1 and 10 and dis- plays its equivalent Roman 
- * numeral value. Display an error message if the 
- * value entered is outside of the acceptable range. 
- * Write a two class solution. */
-
+﻿/****************************************************************
+ * Proramming Assignment 3-1                                    *
+ * Developer: Gabriel Escobedo                                  *
+ * Date Submitted: February 25                                  *
+ * Purpose: Convert the decimal value between 1 and 10 and      *
+ * display its equivalent Roman numeral value                   *
+ ***************************************************************/
 using System;
 using System.Collections.Generic;
 using System.Linq;
