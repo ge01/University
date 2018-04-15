@@ -8,15 +8,22 @@ namespace EmployeeAssignment
 {
     class Employee
     {
+        public string EmployeeNumber { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string DateOfHire { get; set; }
+        public string JobDescription { get; set; }
         private decimal _salary;
 
         // Constructor
-        public Employee(string firstName, string lastName, decimal salary)
+        public Employee(string employeeNumber, string firstName, string lastName, string dateOfHire,
+                        string jobDescription, decimal salary)
         {
+            EmployeeNumber = employeeNumber;
             FirstName = firstName;
             LastName = lastName;
+            DateOfHire = dateOfHire;
+            JobDescription = jobDescription;
             Salary = salary;
         }
 

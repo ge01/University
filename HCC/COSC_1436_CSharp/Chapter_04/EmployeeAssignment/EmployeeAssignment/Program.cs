@@ -6,28 +6,23 @@ using System.Threading.Tasks;
 
 namespace EmployeeAssignment
 {
-    class Program
+    class EmployeeApp
     {
         static void Main(string[] args)
         {
-            Employee empl1 = new Employee("Walter", "White", (decimal)8000000.50);
-            Employee empl2 = new Employee("Jesse", "Pinkman", (decimal)5000000.50);
+            Employee employee1 = new Employee("A000123456", "George", "Hopkins", "December 4, 2012", 
+                                            "QA Inspector", (decimal)80000.50);
+            Employee employee2 = new Employee("A000158963", "Juan", "Sandoval", "March 21, 2015", 
+                                            "Test Technician", (decimal)50000.25);
 
-            Console.WriteLine("Employee 1 First Name: {0}", empl1.FirstName);
-            Console.WriteLine("Employee 1 Last Name: {0}", empl1.LastName);
-            Console.WriteLine("Employee 1 Salary: {0:C}", empl1.Salary);
+            Console.WriteLine("Employee {0}: {1}, {2}, {3}, {4}, {5:C}", 
+                                employee1.EmployeeNumber, employee1.FirstName, employee1.LastName,
+                                employee1.DateOfHire, employee1.JobDescription, employee1.Salary);
 
-            Console.WriteLine("Employee 2 First Name: {0}", empl2.FirstName);
-            Console.WriteLine("Employee 2 Last Name: {0}", empl2.LastName);
-            Console.WriteLine("Employee 2 Salary: {0:C}", empl2.Salary);
 
-            Console.WriteLine();
-            Console.WriteLine("After 10% raise");
-
-            empl1.Salary = empl1.Salary * (decimal)1.1;
-            empl2.Salary = empl2.Salary * (decimal)1.1;
-            Console.WriteLine("Employee 1 new salary: {0:C}", empl1.Salary);
-            Console.WriteLine("Employee 2 new salary: {0:C}", empl2.Salary);
+            Console.WriteLine("Employee {0}: {1}, {2}, {3}, {4}, {5:C}",
+                                employee2.EmployeeNumber, employee2.LastName, employee2.FirstName, 
+                                employee2.DateOfHire, employee2.JobDescription, employee2.Salary);            
         }
     }
 }
