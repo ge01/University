@@ -33,14 +33,19 @@ namespace Assignment_0701
                 total += rainfallValue[i];
             }
 
+            // Find average and display header
             avg = total / rainfallValue.Length;
             Console.WriteLine();
             Console.WriteLine("Month\tInches\tDist. from Avg.");
+
+            // Display values
             for (int i = 0; i < rainfallValue.Length; i++)
             {
                 distance = Math.Abs((avg - rainfallValue[i]));
                 Console.WriteLine("{0}\t{1}\t{2}", month[i], rainfallValue[i], distance);
             }
+
+            // Display average
             Console.WriteLine();
             Console.WriteLine("The average rainfall for the year is {0} inches.", avg);
         }
