@@ -10,25 +10,34 @@ namespace Assignment_0701
     {
         static void Main(string[] args)
         {
-            string[] months = new string[12] { "January", "February", "March", "April",
-                "May", "June", "July", "August", "September",
-                "October", "November", "December"};
-            double[] rainFall = new double [12];
-            double total = 0.0;
+            int total = 0;
+            double avg;
+            double distance;
+            string inValue;
+            int[] score = new int[10];
 
-            for (int i = 0; i < rainFall.Length; i++)
+            // Values are entered
+            for (int i = 0; i < score.Length; i++)
             {
-                Console.Write("Please enter rainfall in feet for month {0}: ", i + 1);
-                rainFall[i] = Convert.ToDouble(Console.ReadLine());
-                total += rainFall[i];
+                Console.Write("Enter Score{0}: ", i + 1);
+                inValue = Console.ReadLine();
+                score[i] = Convert.ToInt32(inValue);
             }
 
-            for (int j = 0; j < months.Length; j++)
+            // Values are summed.
+            for (int i = 0; i < score.Length; i++)
             {
-                Console.WriteLine("The rainfall for {0} = {1}", months, rainFall);
+                total += score[i];
             }
 
-            Console.WriteLine("The average rainfall for the year is {0:D2} feet", (total / 12));
+            avg = total / score.Length;
+            Console.WriteLine();
+            Console.WriteLine("Score\tDist. from Avg.");
+            for (int i = 0; i < score.Length; i++)
+            {
+                distance = Math.Abs((avg - score[i]));
+                Console.WriteLine("{0}\t\t{1}", score[i], distance);
+            }
         }
     }
 }
